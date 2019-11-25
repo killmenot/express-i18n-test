@@ -1,7 +1,7 @@
 
 ### Install
 
-`yarn`. 
-`yarn start:dev`. 
+`yarn`    
+`yarn start:dev`   
 
-Then, open http://localhost:8181
+Then open http://localhost:8181
