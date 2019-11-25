@@ -1,0 +1,4 @@
+{
+  "notification.teacher_added_post": "<p>В классе <a href=\"/classes/{{class.id}}\">{{class.title}}</a> на доске добавлена <a href=\"/classes/{{class.id}}/lessons/{{post.id}}\">новая запись</a></p>",
+  "notification.teacher_added_lesson": "<p>В классе <a href=\"/classes/{{class.id}}\">{{class.title}}</a> добавлено <a href=\"/classes/{{class.id}}/lessons/{{lesson.id}}\">новое занятие</a></p>"
+}

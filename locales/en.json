@@ -1,0 +1,4 @@
+{
+  "notification.teacher_added_post": "<p>A <a href=\"/classes/123/posts/456\">new post</a> has been added in class <a href=\"/classes/123\">test class</a></p>",
+  "notification.teacher_added_lesson": "<p>A <a href=\"/classes/123/lessons/789\">new lesson</a> has been added in class <a href=\"/classes/123\">test class</a></p>"
+}

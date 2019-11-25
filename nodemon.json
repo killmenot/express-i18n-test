@@ -1,0 +1,17 @@
+{
+  "restartable": "rs",
+  "delay": 2,
+  "verbose": true,
+  "watch": [
+    "controllers",
+    "locales",
+    "routes",
+    "app.js",
+    "server.js"
+  ],
+  "ext": "js,json",
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": 8181
+  }
+}

@@ -1,0 +1,21 @@
+h3 example
+p !{__('notification.teacher_added_post')}
+p !{__('notification.teacher_added_lesson')}
+
+h3 posts
+p !{__('notification.teacher_added_post', { documentsCount: 1 })}
+p !{__('notification.teacher_added_post', { tasksCount: 2 })}
+p !{__('notification.teacher_added_post', { testCount: 3 })}
+p !{__('notification.teacher_added_post', { documentsCount: 1, tasksCount: 2 })}
+p !{__('notification.teacher_added_post', { documentsCount: 1, testCount: 3 })}
+p !{__('notification.teacher_added_post', { tasksCount: 2, testCount: 3 })}
+p !{__('notification.teacher_added_post', { documentsCount: 1, tasksCount: 2, testCount: 3})}
+
+h3 lessons
+p !{__('notification.teacher_added_lesson', { documentsCount: 1 })}
+p !{__('notification.teacher_added_lesson', { tasksCount: 2 })}
+p !{__('notification.teacher_added_lesson', { testCount: 3 })}
+p !{__('notification.teacher_added_lesson', { documentsCount: 1, tasksCount: 2 })}
+p !{__('notification.teacher_added_lesson', { documentsCount: 1, testCount: 3 })}
+p !{__('notification.teacher_added_lesson', { tasksCount: 2, testCount: 3 })}
+p !{__('notification.teacher_added_lesson', { documentsCount: 1, tasksCount: 2, testCount: 3})}
